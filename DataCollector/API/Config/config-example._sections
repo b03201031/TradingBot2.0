@@ -1,0 +1,62 @@
+[URL]
+API_URL = 
+
+[KLINE_INTERVAL_SYMBOL]
+1MINUTE  =
+3MINUTE = 
+5MINUTE =
+15MINUTE =
+30MINUTE =
+1HOUR = 
+2HOUR = 
+4HOUR = 
+6HOUR = 
+8HOUR = 
+12HOUR = 
+1DAY = 
+3DAY = 
+1WEEK = 
+1MONTH = 
+
+
+[ORDER_SIDE]
+BUY = 
+SELL = 
+
+
+[ORDER_TYPE]
+LIMIT = 
+MARKET = 
+STOP_LOSS =
+STOP_LOSS_LIMIT =
+TAKE_PROFIT = 
+TAKE_PROFIT_LIMIT = 
+LIMIT_MAKER = 
+
+[]
+
+    ORDER_TYPE_LIMIT = ''
+    ORDER_TYPE_MARKET = ''
+    ORDER_TYPE_STOP_LOSS = ''
+    ORDER_TYPE_STOP_LOSS_LIMIT = ''
+    ORDER_TYPE_TAKE_PROFIT = ''
+    ORDER_TYPE_TAKE_PROFIT_LIMIT = ''
+    ORDER_TYPE_LIMIT_MAKER = ''
+
+    TIME_IN_FORCE_GTC = ''  # Good till cancelled
+    TIME_IN_FORCE_IOC = ''  # Immediate or cancel
+    TIME_IN_FORCE_FOK = ''  # Fill or kill
+
+    ORDER_RESP_TYPE_ACK = ''
+    ORDER_RESP_TYPE_RESULT = ''
+    ORDER_RESP_TYPE_FULL = ''
+
+    # For accessing the data returned by Client.aggregate_trades().
+    AGG_ID = ''
+    AGG_PRICE = ''
+    AGG_QUANTITY = ''
+    AGG_FIRST_TRADE_ID = ''
+    AGG_LAST_TRADE_ID = ''
+    AGG_TIME = ''
+    AGG_BUYER_MAKES = ''
+    AGG_BEST_MATCH = ''
